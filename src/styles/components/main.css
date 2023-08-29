@@ -1,0 +1,9 @@
+.main {
+  background: white;
+  border: 1px solid black;
+  z-index: 2;
+  height: 100vh;
+  border-radius: 20px;
+  
+}
+

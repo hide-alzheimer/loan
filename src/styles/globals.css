@@ -1,3 +1,6 @@
+@import './components/header.css';
+@import './components/main.css';
+@import './pages/peter.css';
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -18,10 +21,12 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
+  /* background: linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
-    rgb(var(--background-start-rgb));
+    rgb(var(--background-start-rgb)); */
 }
+
+

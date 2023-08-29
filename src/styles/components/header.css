@@ -1,0 +1,70 @@
+.header {
+  color: white;
+  border: 1px solid #3e71be;
+  z-index: 1;
+  background: #3e71be;
+  border-radius: 20px;
+  border-bottom-left-radius:0;
+  border-bottom-right-radius:0;
+  height: 200px;
+  position: relative;
+  padding: 32px;
+  position: fixed;
+  width: 100%;
+
+  & .menu {
+    diaplay: flex;
+  }
+
+  & .nav-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  @media (min-width: theme("screens.sm")) {
+    color: pink;
+  }
+
+  @media (min-width: theme("screens.md")) {
+    color: red;
+  }
+  & .card {
+    color: yellow;
+    @media (min-width: theme("screens.sm")) {
+      color: green;
+    }
+  }
+
+  & .ham-menu {
+    display: inline-block;
+    cursor: pointer;
+  }
+
+  & .bar1,
+  & .bar2,
+  & .bar3 {
+    width: 30px;
+    height: 2px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
+    rifht: 0;
+  }
+
+
+  & .change {
+    & .bar1 {
+      transform: translate(0, 11px) rotate(-45deg);
+    }
+    & .bar2 {
+      opacity: 0;
+    }
+    & .bar3 {
+      transform: translate(0, -11px) rotate(45deg);
+    }
+  }
+}
+
+
+
