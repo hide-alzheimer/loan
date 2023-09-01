@@ -7,24 +7,24 @@ export default function Header() {
   const menuClassName = isMenuOpen ? "change" : "";
   function handleClick() {
     // alert('You clicked me!');
-    setCount(count + 1);
+    // setCount(count + 1);
     setIsMenuOpen(!isMenuOpen);
   }
   return (
     <div className="header">
       <nav className="nav-header">
         <div className="nav-logo">
-          <h3>Test {count} times</h3>
+          <h3>Test</h3>
         </div>
         <ul className="menu">
           <li>
-            <a href="#">Profile</a>
+            <a href="#">1</a>
           </li>
           <li>
-            <a href="#">Sign Out</a>
+            <a href="#">2</a>
           </li>
           <li>
-            <a href="#">Option</a>
+            <a href="#">3</a>
           </li>
         </ul>
         <div className={`ham-menu ${menuClassName}`} onClick={handleClick}>

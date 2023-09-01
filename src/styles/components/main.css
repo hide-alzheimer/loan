@@ -1,9 +1,31 @@
 .main {
   background: white;
-  border: 1px solid black;
-  z-index: 2;
   height: 100vh;
   border-radius: 20px;
-  
+  position: absolute;
+  top: 100px;
+  width: 100%;
+  border-radius: 20px;
+  z-index: 2;
+
+  & .container {
+    padding : 10px;
+  }
+
+  & .tabmenu {
+    margin: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    color: black;
+}
+  & .netwage {
+    margin: 10px;
+    border: 1px solid #efe9e9;
+    border-radius: 20px;
+    height: 150px;
+  }
+  & .tabmenu li a {
+    color: rgb(221, 213, 213, 0.8);
+  }
 }
 

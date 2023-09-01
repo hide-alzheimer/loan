@@ -1,19 +1,18 @@
+
 .header {
   color: white;
   border: 1px solid #3e71be;
   z-index: 1;
   background: #3e71be;
-  border-radius: 20px;
-  border-bottom-left-radius:0;
-  border-bottom-right-radius:0;
   height: 200px;
   position: relative;
   padding: 32px;
   position: fixed;
   width: 100%;
 
+
   & .menu {
-    diaplay: flex;
+    display: flex;
   }
 
   & .nav-header {
@@ -49,7 +48,7 @@
     background-color: white;
     margin: 6px 0;
     transition: 0.4s;
-    rifht: 0;
+    right: 0;
   }
 
 
